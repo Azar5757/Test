@@ -3,13 +3,14 @@ package com.crm.qa.Generatelogs;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.testng.annotations.Test;
 
 public class GenerateLogs {
 	
-	WebDriver driver;
-	@Test
-	public void launchbrowser() {
+	
+	
+	public static void main(String[]args) {
+		
+		WebDriver driver;
 		Logger log = Logger.getLogger(GenerateLogs.class);
 		
 		System.setProperty("webdriver.chrome.driver", "D:\\Azar\\SeleniumJava\\Drivers\\chromedriver.exe");
